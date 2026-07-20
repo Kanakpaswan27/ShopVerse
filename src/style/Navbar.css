@@ -1,0 +1,108 @@
+.topbar{
+background:#111827;
+color:white;
+text-align:center;
+padding:10px;
+font-size:15px;
+}
+
+.navbar{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+padding:18px 50px;
+
+background:white;
+
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+
+}
+
+.logo{
+
+font-size:35px;
+font-weight:bold;
+color:#5b3df5;
+
+}
+
+.search{
+
+display:flex;
+width:45%;
+
+}
+
+.search input{
+
+flex:1;
+padding:14px;
+
+font-size:17px;
+
+border:1px solid #ddd;
+
+border-radius:8px 0 0 8px;
+
+outline:none;
+
+}
+
+.search button{
+
+padding:14px 20px;
+
+border:none;
+
+background:#5b3df5;
+
+color:white;
+
+cursor:pointer;
+
+border-radius:0 8px 8px 0;
+
+}
+
+.menu{
+
+display:flex;
+gap:25px;
+
+}
+
+.menu a{
+
+text-decoration:none;
+
+color:#222;
+
+font-weight:600;
+
+}
+
+.category-bar{
+
+display:flex;
+
+justify-content:center;
+
+gap:35px;
+
+padding:15px;
+
+background:white;
+
+box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.category-bar a{
+
+cursor:pointer;
+
+font-weight:600;
+
+}

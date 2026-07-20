@@ -1,0 +1,35 @@
+.products-section{
+    width:95%;
+    margin:60px auto;
+}
+
+.section-title{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:35px;
+}
+
+/* 4 cards per row */
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+@media(max-width:1200px){
+    .products-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+@media(max-width:768px){
+    .products-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:500px){
+    .products-grid{
+        grid-template-columns:1fr;
+    }
+}

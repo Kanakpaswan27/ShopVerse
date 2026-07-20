@@ -1,0 +1,25 @@
+.products{
+
+width:95%;
+
+margin:50px auto;
+
+}
+
+.products h2{
+
+font-size:35px;
+
+margin-bottom:25px;
+
+}
+
+.product-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:25px;
+
+}
