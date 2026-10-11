@@ -1,4 +1,4 @@
-import trendingProducts from "../data/trendingProducts";
+import trendingProducts from "../data/TrendingProducts";
 import "../style/TrendingProducts.css";
 import { FaHeart } from "react-icons/fa";
 
