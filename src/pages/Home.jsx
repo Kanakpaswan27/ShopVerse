@@ -1,5 +1,5 @@
 import Navbar from "../component/Navbar";
-import HeroSlider from "../component/HeroSlider";
+import HeroSlider from "../component/heroSlider";
 import Deals from "../component/Deals";
 import Features from "../component/Features";
 import Category from "../component/Category";
